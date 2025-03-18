@@ -1,0 +1,64 @@
+:root {
+  background-color: #242424;
+  color: grey;
+}
+
+/* Color Picker Settings */
+
+.color-picker-container {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 15px;
+  margin: 200px;
+  text-align: center;
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+.color-picker-display {
+  width: 200px;
+  height: 150px;
+  border: 1px solid white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-magic-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.color-picker-wrapper {
+  width: 80px;
+  height: 25px;
+  border: 10px solid rgb(174, 174, 174);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picker-heading {
+  font-size: 16px;
+  margin-top: 60px;
+}
+
+.label {
+  font-size: 16px;
+  color: white;
+}
